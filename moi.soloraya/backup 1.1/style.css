@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	background: linear-gradient(#dddddd, white);
+	font-family: 
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 130px;
+}
+
+#quotes{
+	background-color: #7cc576;
+	margin-top: 50px;
+}
+
+#inner-quotes{
+	width: 60%;
+	margin: auto;
+}
+
+#quotes p {
+	font-size: 27px;
+	color: white;
+	text-align: center;
+	margin: 70px auto;
+}
+
+/*.carousel {
+	width: 80%;
+}
+*/

@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	background: linear-gradient(#dddddd, white);
+	font-family:
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 130px;
+}
+
+#quotes{
+	background-color: #7cc576;
+	margin-top: 50px;
+}
+
+#inner-quotes{
+	width: 60%;
+	margin: auto;
+}
+
+#quotes p {
+	font-size: 27px;
+	color: white;
+	text-align: center;
+	margin: 70px auto;
+}
+
+
+.sidebar {
+  padding: 3em 2em 2em 2em;
+  background: rgba(0, 0, 0, 0.02);
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    padding-left: 0;
+  }
+}
+.sidebar .side {
+  margin-bottom: 5em;
+}
+.sidebar .side h2 {
+  font-size: 24px;
+  margin-bottom: 1.5em;
+}
+.sidebar .side h2 span {
+  color: #34b8c0;
+}
+.sidebar .side .list {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .side .list li {
+  list-style: none;
+  font-size: 18px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+}
+.sidebar .side .list li a {
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 34px;
+}
+.sidebar .side .list li a i {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.sidebar .side .list li a .badge {
+  position: absolute;
+  background: #34b8c0;
+  top: 5px;
+  right: 0;
+  font-weight: 300;
+}
+.sidebar .side .post {
+  margin-bottom: 3em;
+}
+.sidebar .side .post .blog-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+.sidebar .side .post .desc {
+  padding-left: 120px;
+}
+.sidebar .side .post .desc h3 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sidebar .side .post .desc span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/*.carousel {
+	width: 80%;
+}
+*/
